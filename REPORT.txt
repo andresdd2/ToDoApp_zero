@@ -1,0 +1,33 @@
+
+Pasos Realizados
+
+Primer paso:
+Andrés Díaz creó un repositorio en GitHub y invitó a Andrés Barrios (Ambarrios01) y César Caballero (Cesarcab04).
+Cada integrante clonó el repositorio en su PC.
+
+Segundo paso:
+Con el repositorio clonado, cada integrante creó una rama.
+
+Tercer paso:
+El estudiante Andrés Barrios (Ambarrios01) modificó el archivo Task y el Main.
+
+Cuarto paso:
+El estudiante César Caballero (Cesarcab04) modificó Task y Readme.
+
+Quinto paso:
+El estudiante Andrés Díaz (Andresdiaz2) intentó combinar la rama del estudiante Andrés Barrios (Ambarrios01) y César Caballero (Cesarcab04), generando un conflicto que se solucionó combinando la rama de Andrés Díaz (Andresdiaz2).
+
+git branch andres-diaz
+git push -u origin andres-diaz
+git add .
+git commit -m "Añadir funcionalidad para marcar tareas como completadas"
+git push origin group-1
+
+¿Cómo coordinaron el trabajo en equipo para evitar conflictos innecesarios?
+Cada miembro trabajó en una rama diferente y se comunicó antes de hacer merge.
+
+¿Qué aprendieron sobre la resolución de conflictos en Git?
+Que los conflictos pueden ser comunes trabajando con demás personas y se deben revisar cuidadosamente para mantener el trabajo de todos.
+
+¿Por qué es importante usar Pull Requests en proyectos colaborativos?
+Permiten revisar y discutir cambios antes de integrarlos, reduciendo errores y mejorando la calidad.
